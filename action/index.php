@@ -1,8 +1,8 @@
 <?php
 require "config.php";
-// print_r($_POST);die();
+
 if(isset($_POST['submit'])){
-    echo "hi";die();
+    print_r($_POST);die();
     // Fetching variables of the form which travels in URL
     $name = $_POST['name'];
     $email = $_POST['email'];

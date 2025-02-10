@@ -15,7 +15,7 @@
     <main>
         <section class="first">
             <h2 class="grid-child-first main-header">Contact Me</h2>
-            <form class="grid-child-second contact-form" action="/vanilla-html-js-css-form" id="#form" method="post" name="#form">
+            <form class="grid-child-second contact-form" action="./action/index.php" id="#form" method="post" name="#form">
                 <div class="form-controls">
                     <label>Name :</label>
                     <input id="name" name="name" placeholder='Your Name' type='text'>
