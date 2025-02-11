@@ -2,7 +2,7 @@
 
 main {
     width:960px;
-    height:655px;
+    height:100vh;
     margin:50px auto;
     font-family:'Droid Serif',serif
 }
@@ -23,6 +23,10 @@ section {
 
 .grid-child-second {
     grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.last {
     grid-row-end: 4;
 }
 

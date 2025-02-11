@@ -15,7 +15,7 @@
     <main>
         <section class="first">
             <h2 class="grid-child-first main-header">Contact Me</h2>
-            <form class="grid-child-second contact-form" action="./action/index.php" id="#form" method="post" name="#form">
+            <form class="grid-child-second contact-form" action="./action/index.php" id="contact-form" method="post" name="#form">
                 <div class="form-controls">
                     <label>Name :</label>
                     <input id="name" name="name" placeholder='Your Name' type='text'>
@@ -29,15 +29,20 @@
                     <input id="contact" name="contact" placeholder='Contact' type='text'>
                 </div>
                 <div class="form-controls">
-                    <label>Address:</label>
-                    <input id="address" name="address" placeholder='Address' type='text' value="">
+                    <label>Message:</label>
+                    <input id="message" name="message" placeholder='Message' type='text' value="">
                 </div>
                 <div class="form-controls">
-                    <input id='btn' name="submit" type='submit' value='Submit'>
+                    <input id='btn-submit' name="submit-button" type='button' value='Submit'>
                 </div>
             </form>
         </section>
+        <section>
+            <div class="last">
+                <span id="error"></span>
+            </div>
+        </section>
     </main>
 </body>
-
+<script src="assets/app.js" type='text/javascript' defer></script>
 </html>
